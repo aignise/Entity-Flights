@@ -1,6 +1,29 @@
 # Flight Assistant Bot
 
 Flight Assistant Bot is a bot that helps users find the cheapest flights based on their criteria.
+This Python program utilizes OpenAI's GPT-4 model to create a flight search assistant. It helps users find the cheapest flight based on their criteria.
+
+## Functionality
+The assistant provides the following functionality:
+- Search for the cheapest flight based on user input.
+- Retrieve flight information such as price, departure time, arrival time, airline, and flight number.
+
+## Arguments
+The assistant function, `search_cheapest_flight`, requires the following arguments:
+- `origin_location`: Departure airport location.
+- `destination_location`: Arrival airport location.
+- `departure_date`: Date of departure in the format YYYY-MM-DD.
+- `passenger_count`: Number of passengers.
+
+## Steps to Run the Program
+1. Ensure you have Python installed on your system.
+2. Install the required dependencies by running `pip install -r requirements.txt`.
+3. Obtain an OpenAI API key and set it as an environment variable named `OPENAI_API_KEY` in a `.env` file.
+4. Obtain an OpenAI assistant ID and set it as an environment variable named `ASSISTANT_ID` in the `.env` file.
+5. Run the program by executing the `main.py` file.
+6. Enter your origin location, destination location, departure date, and the number of passengers when prompted.
+7. The program will provide information about the cheapest flight based on your criteria.
+
 
 ## Setup
 
